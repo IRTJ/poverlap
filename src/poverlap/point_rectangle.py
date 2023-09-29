@@ -48,7 +48,7 @@ def point_rectangle_add_area(p: T_POINT, rect_pos: T_POSITION, rect_size: T_SIZE
         active_distance (float, optional): Area Distance Positive or Negative. Defaults to 0.0.
 
     Returns:
-        bool: bool: True if point Overlapping with Rect Active Area otherwise False
+        bool: True if point Overlapping with Rect Active Area otherwise False
     """
     return (
         (p[0] + active_distance >= rect_pos[0]) and 
