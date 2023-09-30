@@ -20,7 +20,7 @@ _sign = lambda p1, p2, p3: (p1[0] - p3[0]) * (p2[1] - p3[1]) - (p2[0] - p3[0]) *
 
 
 def point_triangle(p: T_POINT, a: T_POSITION, b: T_POSITION, c: T_POSITION) -> bool:
-    """_summary_
+    """Point Overlapping Triangle
 
     Args:
         p (T_POINT): Point
