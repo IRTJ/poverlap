@@ -30,7 +30,7 @@ def point_distance(pa: T_POINT, pb: T_POINT) -> float:
     return dist(pa, pb)
 
 
-def point_point_pos_algo(pa: T_POINT, pb: T_POINT) -> bool:
+def point_point(pa: T_POINT, pb: T_POINT) -> bool:
     """Point Overlapping Point With Position Algorithm
 
     Args:
@@ -43,7 +43,7 @@ def point_point_pos_algo(pa: T_POINT, pb: T_POINT) -> bool:
     return (pa[0] == pb[0]) and (pa[1] == pb[1])
 
 
-def point_point_dist_algo(pa: T_POINT, pb: T_POINT, active_distance: float = 0.0) -> bool:
+def point_point_add_area(pa: T_POINT, pb: T_POINT, active_distance: float = 0.0) -> bool:
     """Point Overlapping Point With Check Distance Algorithm
 
     Args:
@@ -59,8 +59,8 @@ def point_point_dist_algo(pa: T_POINT, pb: T_POINT, active_distance: float = 0.0
 
 __dir__ = (
     "point_distance",
-    "point_point_pos_algo",
-    "point_point_dist_algo",
+    "point_point",
+    "point_point_add_area",
 )
 
 
