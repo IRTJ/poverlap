@@ -24,7 +24,7 @@ _is_inside = lambda point, vp1, vp2: (
 
 
 def point_polygon(p: T_POINT, poly: T_POLYGON) -> bool:
-    """_summary_
+    """Point Overlapping Polygon
 
     Args:
         p (T_POINT): Point
