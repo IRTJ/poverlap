@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poverlap"
+authors = [
+    {name = "Tooraj", email = "booleansfunction@Gmail.com"},
+]
+description = "Point Overlapping With Any 2D Shape"
+requires-python = ">=3.9"
+license = {file = "License"}
+keywords = ["point", "overlapping", "collide", "2d overlap", "2d collide", "collision", "overlap", "point overlap", "point collide]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+dynamic = ["version", "readme"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+version = {attr = "poverlap.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["poverlap*"]
+exclude = []
+
+
+[project.urls]
+"Homepage" = "https://github.com/IRTJ/poverlap"
+"Source" = "https://github.com/IRTJ/poverlap"
