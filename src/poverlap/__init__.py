@@ -18,5 +18,6 @@ __all__ = (
 )
 
 
+__version__ = "0.9"
 __author__ = "Tooraj"
 __email__ = "booleansfunction@Gmail.com"
