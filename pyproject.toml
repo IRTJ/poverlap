@@ -10,7 +10,7 @@ authors = [
 description = "Point Overlapping With Any 2D Shape"
 requires-python = ">=3.9"
 license = {file = "License"}
-keywords = ["point", "overlapping", "collide", "2d overlap", "2d collide", "collision", "overlap", "point overlap", "point collide]
+keywords = ["point", "overlapping", "collide", "2d overlap", "2d collide", "collision", "overlap", "point overlap", "point collide"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
